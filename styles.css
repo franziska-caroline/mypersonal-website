@@ -1,8 +1,124 @@
 * {
     box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
-}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #494726;
+    color: white;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 0.075em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    letter-spacing: 0.075em;
+  }
+
+  .nav-item:hover {
+    color: #877847;
+  }
+
+  .image-container {
+    grid-area: image;
+  }
+  
+  .skill-container {
+    grid-area: skill;
+  }
+  
+  .hobbies-container {
+    grid-area: hobby;
+  }
+  
+  .contact-box {
+    grid-area: contact;
+    background-color: #877847;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
+  
+  .socialmedia-box {
+    grid-area: social;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-box {
+    grid-area: info;
+  }
+  
+  .cv-box {
+    grid-area: "cv-box";
+  }
+  
+  .main-page {
+    display: grid;
+    grid-template-areas:
+      "image skill"
+      "image hobby"
+      "contact contact"
+      "social social"
+      "info cv-box";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .profil-image {
+    width: 300px;
+    height: auto;
+  }
+
+  .image-caption {
+    color: #494726;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  .social-image {
+    width: 150px;
+    height: auto;
+    margin: 50px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #494726;
+    padding-top: 10px;
+  }
+  .social {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px #494726;
+  }
