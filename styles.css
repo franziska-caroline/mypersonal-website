@@ -49,6 +49,7 @@ header {
   
   .skill-container {
     grid-area: skill;
+    padding-top: 3.5rem;
   }
   
   .hobbies-container {
@@ -94,14 +95,16 @@ header {
   }
 
   .profil-image {
-    width: 300px;
+    width: 40rem;
     height: auto;
-  }
+    padding-top: 3.5rem;
+    padding-left: 3.5rem;
+  } 
 
   .image-caption {
     color: #494726;
-    padding-left: 50px;
-    padding-top: 5px;
+    padding-left: 3.5rem;
+    padding-top: 10px;
     padding-bottom: 25px;
   }
 
@@ -121,4 +124,29 @@ header {
     flex-direction: column;
     align-items: center;
     border: 3px #494726;
+  }
+
+  .subtitle {
+    text-decoration: underline;
+    color: #494726;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tag-box {
+    width: 30rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .tag {
+    background-color:#877847;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 8rem;
   }
