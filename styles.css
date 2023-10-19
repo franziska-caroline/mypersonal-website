@@ -70,7 +70,7 @@ nav ul {
 .fixed-info-head {
   text-transform: uppercase;
   padding-bottom: 0.75rem;
-  color: #494726;
+  color: #877847;
   font-weight: lighter;
 }
 
@@ -112,48 +112,13 @@ color: #494726;
   line-height: 1.3rem;
 }
 
-
 /* social section */
 
 .social-media-section {
   position: absolute;
   top: 580px;
   width: 100%;
-  background-color: #494726;
-}
-
-.social-image {
-  width: 4rem;
-  height: auto;
-  padding-bottom: 1rem;
-}
-
-.social-media-box {
-  display: flex;
-  justify-content: center;
-}
-
-
-.link {
-  text-decoration: none;
-  color: white;
-  padding-top: 1.5rem;
-  text-align: center;
-  font-weight: lighter;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-}
-
-
-/* social section */
-
-.social-media-section {
-  position: absolute;
-  top: 580px;
-  width: 100%;
-  background-color: #494726;
+  background-color: #877847
 }
 
 .social-image {
@@ -242,14 +207,44 @@ color: #494726;
   opacity: 50%;
 }
 
+/* cv section */
+
+.cv-box {
+  width: 100%;
+  position: absolute;
+  top: 76rem;
+  left: 19rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+  color: #494726;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.subsubtitle {
+  text-transform: uppercase;
+  color: #877847;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cv-cell {
+  padding-right: 5rem;
+  padding-bottom: 0.5rem;
+}
+/* footer */
+
 footer {
   position: absolute;
-  top: 1220px;
+  top: 95rem;
   width: 100%;
   background-color: #494726;
   }
 
-table {
+.footer-table {
   padding-left: 5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
