@@ -146,6 +146,39 @@ color: #494726;
   margin: 2rem;
 }
 
+
+/* social section */
+
+.social-media-section {
+  position: absolute;
+  top: 580px;
+  width: 100%;
+  background-color: #494726;
+}
+
+.social-image {
+  width: 4rem;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.social-media-box {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
 /* skill section */
 
 .skill-section {
@@ -209,136 +242,30 @@ color: #494726;
   opacity: 50%;
 }
 
-/*
-  
-  .hobbies-container {
-    grid-area: hobby;
-    padding-left: 6rem;
+footer {
+  position: absolute;
+  top: 1220px;
+  width: 100%;
+  background-color: #494726;
   }
-  
-  .contact-box {
-    grid-area: contact;
-    background-color: #877847;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 3.5rem;
+
+table {
+  padding-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+  .footer-cell {
+    font-size: 0.75rem;
+    text-decoration: none;
+    line-height: 2rem;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
+    padding-right: 2rem;
     letter-spacing: 0.075em;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .socialmedia-box {
-    grid-area: social;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    padding-top: 3.5rem;
-  }
-  
-  .info-box {
-    grid-area: info;
-    padding-top: 8rem;
-    padding-left: 3.5rem;
-    margin-right: 1rem;
-  }
-  
-  .cv-box {
-    grid-area: "cv-box";
-    padding-top: 8rem;
-    padding-right: 50px;
-  }
-  
-  .main-page {
-    display: grid;
-    grid-template-areas:
-      "image skill"
-      "image hobby"
-      "contact contact"
-      "social social"
-      "info cv-box";
-      font-family: 'Josefin Sans', sans-serif;  }
-
-  .profil-image {
-    width: 40rem;
-    height: auto;
-    padding-top: 3.5rem;
-    padding-left: 3.5rem;
-  } 
-
-  .image-caption {
-    color: #494726;
-    padding-left: 3.5rem;
-    padding-top: 10px;
-    padding-bottom: 25px;
-  }
-
-  .social-image {
-    width: 8rem;
-    height: auto;
-  }
-
-  .link {
-    text-decoration: none;
-    color: white;
-    padding-top: 1.5rem;
-    text-align: center;
-    padding-bottom: 1.5rem;
-    font-weight: bold;
-  }
-  .social {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    border-radius: 50px;
-    background-color: #877847;
-  }
-
-  .subtitle {
-    text-decoration: underline;
-    color: #494726;
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding-bottom: 0.5rem;
-  }
-
-  .tag-box {
-    width: 30rem;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-
-  .tag {
-    background-color:#877847;
-    color: white;
-    border-radius: 8px;
-    margin-top: 0.5px;
-    margin-right: 10px;
-    padding: 5px;
-    text-align: center;
-    width: 8rem;
-  }
-
-  .number {
+    font-weight: lighter;
     text-transform: uppercase;
   }
 
-  footer {
-    background-color: #494726;
-    color: white;
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
+  .footer-cell:hover {
+    color: #877847;
+  }
