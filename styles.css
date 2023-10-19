@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #494726;
-    color: antiquewhite;
+    color: white;
     padding: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ header {
   .nav-item {
     margin-left: 2rem;
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
     padding-right: 50px;
     letter-spacing: 0.075em;
     }
