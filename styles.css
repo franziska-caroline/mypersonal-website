@@ -61,9 +61,10 @@ nav ul {
 
 .fixed-info {
   position: fixed;
-  top: 150px;
+  top: 10rem;
   left: 2rem;
   font-size: 0.75rem;
+  z-index: 2;
 }
 
 .fixed-info-head {
@@ -85,7 +86,6 @@ nav ul {
 .profil-section {
   display: flex;
   position: absolute;
-  padding-left: 3rem;
   top: 10rem;
   left: 19rem;
   font-weight: lighter;
@@ -117,80 +117,99 @@ color: #494726;
 
 .social-media-section {
   position: absolute;
-  top: 550px;
+  top: 580px;
   width: 100%;
   background-color: #494726;
-  z-index: 2;
 }
 
 .social-image {
-  width: 8rem;
+  width: 4rem;
   height: auto;
+  padding-bottom: 1rem;
 }
+
+.social-media-box {
+  display: flex;
+  justify-content: center;
+}
+
 
 .link {
   text-decoration: none;
   color: white;
   padding-top: 1.5rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: lighter;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 2rem;
 }
 
+/* skill section */
+
+.skill-section {
+  display: flex;
+  position: absolute;
+  top: 53rem;
+  left: 19rem;
+}
+
+.skill-info {
+  width: 20rem;
+  font-weight: lighter;
+}
+
+.skill-head {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.7rem;
+}
+
+.skill-text {
+  padding-top: 2rem;
+  line-height: 1.3rem;
+}
+
+.skill-button {
+  border: none;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+
+.skill-button:hover {
+  color: #877847;
+}
+
+.skill-box {
+  padding-left: 4rem;
+  font-weight: lighter;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 1rem;
+  width: 500px;
+}
+
+.skill {
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1.7rem;
+  background-color: #E9E1D6;
+  padding: 1rem;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.skill:hover {
+  opacity: 50%;
+}
 
 /*
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #494726;
-    color: white;
-    padding: 1.5rem;
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    position: fixed;
-    width: 100%;
-  }
-
-.title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  letter-spacing: 0.075em;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-
-  .nav-item {
-    margin-left: 2rem;
-    font-size: 0.75rem;
-    text-decoration: none;
-    color: white;
-    padding-right: 50px;
-    letter-spacing: 0.075em;
-    }
-  
-  .nav-item:hover {
-    color: #877847;
-
-  
-
-  .image-container {
-    grid-area: image;
-  }
-  
-  .skill-container {
-    grid-area: skill;
-    padding-top: 3.5rem;
-    padding-left: 6rem;
-  }
   
   .hobbies-container {
     grid-area: hobby;
