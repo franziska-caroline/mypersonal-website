@@ -18,7 +18,8 @@ header {
   justify-content: space-between;
   color: white;
   background-color: #494726;
-  padding: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   text-transform: uppercase;
   position: fixed;
   width: 100%;
@@ -27,17 +28,19 @@ header {
 
 .title {
 position: absolute;
-top: 50%;
+top: 55%;
 left: 50%;
 translate: -50% -50%;
 letter-spacing: 0.075em;
 padding-top: 3rem;
 padding-bottom: 3rem;
+font-weight: lighter;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  padding-left: 5rem;
 }
 
 .nav-item {
@@ -46,6 +49,7 @@ nav ul {
   color: white;
   padding-right: 2rem;
   letter-spacing: 0.075em;
+  font-weight: lighter;
   }
 
 .nav-item:hover {
@@ -66,13 +70,15 @@ nav ul {
   text-transform: uppercase;
   padding-bottom: 0.75rem;
   color: #494726;
-
+  font-weight: lighter;
 }
 
 .fixed-info-text {
+  font-weight: lighter;
   line-height: 1rem;
   color: #877847;
 }
+
 
 /* profil section */
 
@@ -80,8 +86,9 @@ nav ul {
   display: flex;
   position: absolute;
   padding-left: 3rem;
-  top: 150px;
-  left: 300px;
+  top: 10rem;
+  left: 19rem;
+  font-weight: lighter;
 }
 
 .profil-image {
@@ -112,22 +119,8 @@ color: #494726;
   position: absolute;
   top: 550px;
   width: 100%;
-  max-height: 200px;
   background-color: #494726;
-}
-
-.socialmedia-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-
-.social {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding-top: 1.5rem;
+  z-index: 2;
 }
 
 .social-image {
@@ -139,9 +132,10 @@ color: #494726;
   text-decoration: none;
   color: white;
   padding-top: 1.5rem;
-  padding-bottom: 3rem;
   text-align: center;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
 
