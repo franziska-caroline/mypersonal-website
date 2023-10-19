@@ -5,6 +5,147 @@
     padding: 0;
 }
 
+body {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #494726;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.title {
+position: absolute;
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+letter-spacing: 0.075em;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: white;
+  padding-right: 2rem;
+  letter-spacing: 0.075em;
+  }
+
+.nav-item:hover {
+  color: #877847;
+}
+
+
+/* aside */
+
+.fixed-info {
+  position: fixed;
+  top: 150px;
+  left: 2rem;
+  font-size: 0.75rem;
+}
+
+.fixed-info-head {
+  text-transform: uppercase;
+  padding-bottom: 0.75rem;
+  color: #494726;
+
+}
+
+.fixed-info-text {
+  line-height: 1rem;
+  color: #877847;
+}
+
+/* profil section */
+
+.profil-section {
+  display: flex;
+  position: absolute;
+  padding-left: 3rem;
+  top: 150px;
+  left: 300px;
+}
+
+.profil-image {
+  height: 20rem;
+}
+
+.profil-info {
+padding-left: 4rem;
+width: 450px;
+color: #494726;
+}
+
+.profil-head {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.7rem;
+}
+
+.profil-text {
+  padding-top: 2rem;
+  line-height: 1.3rem;
+}
+
+
+/* social section */
+
+.social-media-section {
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  max-height: 200px;
+  background-color: #494726;
+}
+
+.socialmedia-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.social {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+
+.social-image {
+  width: 8rem;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*
 header {
     display: flex;
     justify-content: space-between;
@@ -188,5 +329,3 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-  
-  }
