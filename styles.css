@@ -1,14 +1,13 @@
 * {
-    box-sizing: border-box;
-    border: 0;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
-
 
 /* HEADER */
 
@@ -32,7 +31,7 @@ header {
 nav ul {
   position: absolute;
   top: 50%;
-  translate: 0 -50%;  
+  translate: 0 -50%;
   margin-left: 5%;
   display: flex;
   flex-wrap: wrap;
@@ -89,10 +88,10 @@ nav ul {
 }
 
 .profil-info {
-padding-left: 4rem;
-width: 450px;
-color: #494726;
-hyphens: auto;
+  padding-left: 4rem;
+  width: 450px;
+  color: #494726;
+  hyphens: auto;
 }
 
 .profil-head {
@@ -169,6 +168,8 @@ hyphens: auto;
   font-weight: lighter;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .skill-article {
@@ -198,7 +199,7 @@ hyphens: auto;
 .skill-button {
   border: none;
   background: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: left;
   margin-top: 1rem;
   line-height: 1.3rem;
@@ -210,7 +211,6 @@ hyphens: auto;
 }
 
 .skill-list {
-
   list-style: none;
   padding-left: 4rem;
   font-weight: lighter;
@@ -223,7 +223,7 @@ hyphens: auto;
 .skill {
   font-size: 1rem;
   text-transform: uppercase;
-  background-color: #E9E1D6;
+  background-color: #e9e1d6;
   padding: 1rem;
   border-radius: 10px;
   align-self: center;
@@ -265,21 +265,30 @@ hyphens: auto;
 /* FOOTER */
 
 footer {
-  position: absolute;
-  top: 95rem;
   width: 100%;
+  position: relative;
+  bottom: 0;
   background-color: #494726;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .grid {
   display: grid;
-  padding-left: 5rem;
-  margin: 1rem 0;
-  width: 10rem;
+  margin-left: 10rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 48rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-  .footer-cell:hover {
-    color: #877847;
-  }
+.footer-cell {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  padding-top: 1rem;
+}
 
+.footer-cell:hover {
+  color: #877847;
+}
