@@ -8,56 +8,49 @@
 body {
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
-  position: relative;
 }
 
 /* HEADER */
 
 header {
-  display: flex;
-  justify-content: space-between;
   color: white;
   background-color: #494726;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   text-transform: uppercase;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
-
+/*
 .title {
-position: absolute;
-top: 55%;
-left: 50%;
-translate: -50% -50%;
-letter-spacing: 0.075em;
-padding-top: 3rem;
-padding-bottom: 3rem;
-font-weight: lighter;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  padding-left: 5rem;
-}
-
-.nav-item {
-  font-size: 0.75rem;
-  text-decoration: none;
-  color: white;
-  padding-right: 2rem;
+  text-align: center;
   letter-spacing: 0.075em;
   font-weight: lighter;
-  }
+}
+*/
+
+nav ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  background-color: aqua;
+}
+
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
 
 .nav-item:hover {
   color: #877847;
 }
 
 
-/* aside */
+/*
+
 
 .fixed-info {
   position: fixed;
@@ -80,8 +73,6 @@ nav ul {
   color: #877847;
 }
 
-
-/* profil section */
 
 .profil-section {
   display: flex;
@@ -112,7 +103,6 @@ color: #494726;
   line-height: 1.3rem;
 }
 
-/* social section */
 
 .social-media-section {
   position: absolute;
@@ -144,7 +134,6 @@ color: #494726;
   margin: 2rem;
 }
 
-/* skill section */
 
 .skill-section {
   display: flex;
@@ -207,10 +196,8 @@ color: #494726;
   opacity: 50%;
 }
 
-/* cv section */
 
 .cv-box {
-  width: 100%;
   position: absolute;
   top: 76rem;
   left: 19rem;
@@ -235,7 +222,6 @@ color: #494726;
   padding-right: 5rem;
   padding-bottom: 0.5rem;
 }
-/* footer */
 
 footer {
   position: absolute;
@@ -244,23 +230,15 @@ footer {
   background-color: #494726;
   }
 
-.footer-table {
+.grid {
+  display: grid;
   padding-left: 5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  width: 10rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-  .footer-cell {
-    font-size: 0.75rem;
-    text-decoration: none;
-    line-height: 2rem;
-    color: white;
-    padding-right: 2rem;
-    letter-spacing: 0.075em;
-    font-weight: lighter;
-    text-transform: uppercase;
-  }
 
   .footer-cell:hover {
     color: #877847;
   }
+
