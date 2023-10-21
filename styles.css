@@ -6,7 +6,6 @@
 }
 
 body {
-  display: flex;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -22,42 +21,41 @@ header {
   width: 100%;
   z-index: 1;
 }
-/*
+
 .title {
   text-align: center;
   letter-spacing: 0.075em;
   font-weight: lighter;
 }
-*/
 
 nav ul {
   position: absolute;
+  top: 50%;
+  translate: 0 -50%;  
+  margin-left: 5%;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 2rem;
-  background-color: aqua;
 }
-
 
 .nav-item {
   color: white;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .nav-item:hover {
   color: #877847;
 }
 
-
-/*
-
+/* ASIDE */
 
 .fixed-info {
   position: fixed;
-  top: 10rem;
-  left: 2rem;
+  top: 12rem;
+  left: 5%;
   font-size: 0.75rem;
-  z-index: 2;
 }
 
 .fixed-info-head {
@@ -73,29 +71,34 @@ nav ul {
   color: #877847;
 }
 
+/* PROFIL */
 
 .profil-section {
   display: flex;
-  position: absolute;
-  top: 10rem;
-  left: 19rem;
+  justify-content: center;
+  margin-left: 10rem;
+  padding-top: 12rem;
+  margin-bottom: 6rem;
   font-weight: lighter;
 }
 
 .profil-image {
-  height: 20rem;
+  width: 20rem;
+  height: auto;
 }
 
 .profil-info {
 padding-left: 4rem;
 width: 450px;
 color: #494726;
+hyphens: auto;
 }
 
 .profil-head {
   font-size: 1.5rem;
   text-transform: uppercase;
   line-height: 1.7rem;
+  font-weight: lighter;
 }
 
 .profil-text {
@@ -103,23 +106,36 @@ color: #494726;
   line-height: 1.3rem;
 }
 
+/* SOCIAL MEDIA */
 
 .social-media-section {
-  position: absolute;
-  top: 580px;
-  width: 100%;
-  background-color: #877847
+  background-color: #877847;
+}
+
+.social-media-headline-section {
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.social-media-head {
+  width: 48rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1rem ;
+  color: white;
+  font-weight: lighter;
+}
+
+.social-media-box {
+  display: flex;
+  justify-content: center;
 }
 
 .social-image {
   width: 4rem;
   height: auto;
   padding-bottom: 1rem;
-}
-
-.social-media-box {
-  display: flex;
-  justify-content: center;
 }
 
 .link {
@@ -134,6 +150,7 @@ color: #494726;
   margin: 2rem;
 }
 
+/*
 
 .skill-section {
   display: flex;
