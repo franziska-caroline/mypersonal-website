@@ -9,6 +9,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
 /* HEADER */
 
 header {
@@ -61,17 +62,17 @@ nav ul {
 .fixed-info-head {
   text-transform: uppercase;
   padding-bottom: 0.75rem;
-  color: #877847;
+  color: #494726;
   font-weight: lighter;
 }
 
 .fixed-info-text {
   font-weight: lighter;
   line-height: 1rem;
-  color: #877847;
+  color: #494726;
 }
 
-/* PROFIL */
+/* PROFILE */
 
 .profil-section {
   display: flex;
@@ -162,13 +163,20 @@ hyphens: auto;
   margin-bottom: 2rem;
 }
 
-/*
+/* SKILL SECTION */
 
 .skill-section {
+  font-weight: lighter;
   display: flex;
-  position: absolute;
-  top: 53rem;
-  left: 19rem;
+  justify-content: center;
+}
+
+.skill-article {
+  width: 48rem;
+  margin-left: 10rem;
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .skill-info {
@@ -201,12 +209,13 @@ hyphens: auto;
   color: #877847;
 }
 
-.skill-box {
+.skill-list {
+
+  list-style: none;
   padding-left: 4rem;
   font-weight: lighter;
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
   gap: 1rem;
   width: 500px;
 }
@@ -214,7 +223,6 @@ hyphens: auto;
 .skill {
   font-size: 1rem;
   text-transform: uppercase;
-  line-height: 1.7rem;
   background-color: #E9E1D6;
   padding: 1rem;
   border-radius: 10px;
@@ -225,6 +233,7 @@ hyphens: auto;
   opacity: 50%;
 }
 
+/*
 
 .cv-box {
   position: absolute;
@@ -251,6 +260,9 @@ hyphens: auto;
   padding-right: 5rem;
   padding-bottom: 0.5rem;
 }
+*/
+
+/* FOOTER */
 
 footer {
   position: absolute;
